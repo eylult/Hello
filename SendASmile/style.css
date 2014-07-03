@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+header,footer,
+content,section,
+hgroup,nav,
+figure{
+	/* Giving a display value to the HTML5 rendered elements: */
+	display:block;
+}
+
+/* Headings: */
+
+h1,h2,h3{
+	font-family:"Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	color:black;
+}
+
+h1{
+	/* The logo text */
+	font-size:3.5em;
+	padding:0.5em 0 0;
+	text-transform:uppercase;
+}
+
+h3{
+	/* The slogan text */
+	margin:10 0 1em;
+	width:20px;
+	height:90px;
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+        font-size: 1.75em;
+	letter-spacing: .2em;
+	line-height: 1.1em;
+	text-transform: uppercase;
+}
+
+
+h2{
+	font-size:2.2em;
+	font-weight:normal;
+	letter-spacing:0.01em;
+	text-transform:uppercase;
+	text-shadow:0 1px 0 #E08167;
+}
+
+footer .line{
+	margin:2em 0;
+}
+
+/* Article styles: */
+
+#page{
+	width:40%;
+	margin:0 auto;
+	position:relative;
+}
+
+content{
+	background-color:#DCCECB;
+	margin:2em 0;
+	padding:20px;
+}
+
+/* Footer styling: */
+
+footer{
+	margin-bottom:30px;
+	text-align:center;
+	font-size:0.825em;
+}

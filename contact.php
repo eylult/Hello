@@ -1,7 +1,7 @@
 <?php
  
 if(isset($_POST['email'])) {
-  $email_to = "eylultasyurek@gmail.com";
+  $email_to = "eylultasyurek@yahoo.com";
   $email_subject = "Searching For Man Friday";
  
     function died($error) {
